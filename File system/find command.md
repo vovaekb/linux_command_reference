@@ -51,3 +51,5 @@ Find all empty directories and delete them
 ```bash
 find . -type d -empty -exec rm -rf {} \;
 ```
+
+All commands are listed in tutorial: https://www.linuxtechi.com/25-find-command-examples-for-linux-beginners/.
