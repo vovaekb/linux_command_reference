@@ -7,13 +7,13 @@ Firstly, we can figure out which flags (cflags) we need to use with the compiler
 ```bash
 pkg-config --cflags opencv
 ```
-and which libs to include:
+and which libraries to include:
 ```bash
 pkg-config --libs opencv
 ```
 
 
-The input will be like that:
+The input for `pkg-config --cflags opencv` will be like that:
 ```bash
 -I/usr/local/include/opencv -I/usr/local/include
 ```
